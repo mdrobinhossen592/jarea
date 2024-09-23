@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jcrea</title>
+    <!-- fave icon -->
+    <link rel="icon" href="./images/fave icon.png">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <!-- google fonts -->
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- media css -->
+     <link rel="stylesheet" href="./css/media.css">
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="bg-black py-[16px] px-[10px] mt-[40px] container mx-auto sm:rounded-xl md:rounded-[60px] lg:rounded-[60px] xl:rounded-[60px] 2xl:rounded-[60px]">
+            <div class="container flex sm:justify-between xl:justify-between 2xl:justify-between items-center md:justify-center">
+                <ul class="hidden md:flex space-x-6 lg:space-x-0.5 order-1">
+                    <li><a href="#"
+                            class="text-white md:text-base md:px-[13px] md:py-[15px] lg:px-[35px] xl:px-[40px] xl:py-[20px] 2xl:px-[40px] 2xl:py-[20px] xl:text-xl 2xl:text-xl rounded-[60px] bg-[#FD853A] text-xl font-bold">Home</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-white md:text-base md:px-[13px] md:py-[15px] lg:px-[35px] xl:px-[40px] xl:py-[20px] 2xl:px-[40px] 2xl:py-[20px] xl:text-xl 2xl:text-xl rounded-[60px] hover:bg-[#dddddd41]">About</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-white md:text-base md:px-[13px] md:py-[15px] lg:px-[35px] xl:px-[40px] xl:py-[20px] 2xl:px-[40px] 2xl:py-[20px] xl:text-xl 2xl:text-xl rounded-[60px] hover:bg-[#dddddd41]">Service</a>
+                    </li>
+                </ul>
+
+                <!-- logo area start -->
+                <div class="text-white text-xl font-bold order-2 icon">
+                    <div class="onwer flex items-center justify-center w-[190px] icon">
+                        <a href="#">
+                            <img  src="./images/fave icon.png" alt="">
+                        </a>
+                        <a href="#" class="ps-[10px] w-[165px] onwer_title">
+                            <span class="flex order-2">JCREA</span>
+                            <div class="onwer_name ">
+                                <p class="text-xs font-normal">Made by</p>
+                                <h3 class="text-lg font-semibold">Jayesh Palil</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- logo area end -->
+
+                <ul class="hidden md:flex space-x-6 lg:space-x-0.5 order-3">
+                    <li><a href="#"
+                            class="text-white md:text-base md:px-[13px] md:py-[15px] lg:px-[35px] xl:px-[40px] xl:py-[20px] rounded-[60px] xl:text-xl 2xl:px-[40px] 2xl:py-[20px] 2xl:text-xl hover:bg-[#dddddd41]">Resume</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-white md:text-base md:px-[13px] md:py-[15px] lg:px-[35px] xl:px-[40px] xl:py-[20px] 2xl:px-[40px] 2xl:py-[20px] xl:text-xl 2xl:text-xl rounded-[60px] hover:bg-[#dddddd41]">Project</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-white md:text-base md:px-[13px] md:py-[15px] lg:px-[35px] xl:px-[40px] xl:py-[20px] 2xl:px-[40px] 2xl:py-[20px] xl:text-xl 2xl:text-xl rounded-[60px] hover:bg-[#dddddd41]">Contact</a>
+                    </li>
+                </ul>
+                <div class="md:hidden order-2">
+                    <button id="menu-btn" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden">
+                <ul class="space-y-4 mt-[10px]">
+                    <li><a href="#" class="block text-white hover:bg-blue-700 p-4">Home</a></li>
+                    <li><a href="#" class="block text-white hover:bg-blue-700 p-4">About</a></li>
+                    <li><a href="#" class="block text-white hover:bg-blue-700 p-4">Services</a></li>
+                    <li><a href="#" class="block text-white hover:bg-blue-700 p-4">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- banner section start -->
+    <section class="banner"> 
+        <div class="container mx-auto relative h-[742px]">
+            <div class="banner_title gird grid-col-12 text-center mt-[37px] relative">
+                <h5
+                    class="text-xl font-medium text-[#171717] border-solid border-[#171717] border rounded-full w-[104px] h-[45px] leading-[41px] capitalize mx-auto mb-[10px]">
+                    hello</h5>
+                <h1 class="sm:text-[4rem] md:text-8xl lg:text-8xl xl:text-8xl 2xl:text-8xl font-semibold text-[#171717]">I’m <span class="text-[#FD853A]">Jenny</span>, <br>
+                    Product Designer</h1>
+
+                <img class="shape1 absolute top-[-21px] left-[53.5%] lg:left-[54.5%] md:left-[56.5%] sm:left-[57.5%]" src="./images/banner shape1.png"
+                    alt="banner shape1.png">
+                <img class="shape2 absolute bottom-[-67px] sm:left-[6px] md:left-[-56px] lg:left-[65px] xl:left-[197px] 2xl:left-[330px]" src="./images/banner shape2.png"
+                    alt="banner shape2.png">
+            </div>
+
+            <div class="banner_text grid grid-cols-12 mt-[70px] relative ">
+                <div class="banner_left_txt sm:col-span-4 sm:pe-0 lg:col-span-4 md:col-span-4 lg:col-span-3 xl:col-span-3 2xl:col-span-3 pe-[65px] md:pe-0 lg:pe-[65px] xl:pe-[65px] 2xl:pe-[65px]">
+                    <span class="text-[#344054] text-3xl"><i class="fa-solid fa-quote-left"></i></span>
+                    <p class="text-[#344054] font-medium mt-[24px]">Jenny’s Exceptional product design ensure our website’s success. Highly Recommended</p>
+                </div>
+
+                <div class="blanck sm:col-span-5 md:col-span-5 lg:col-span-6 xl:col-span-7 2xl:col-span-7"></div>
+
+                <div class="banner_right_txt sm:col-span-3 md:col-span-3 lg:col-span-2 xl:col-span-2 2xl:col-span-2 text-right">
+                    <div class="star text-[#FD853A] sm:text-[20px] md:text-[25px] lg:text-[25px] xl:text-[25px] 2xl:text-[25px]">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <h3 class="text-[#171717] sm:text-[40px] lg:text-[40px] text-[47px] font-bold">10 Years</h3>
+                    <p class="text-xl font-normal ">Experince</p>
+                </div>
+            </div>
+
+            <div class="banner_img absolute sm:left-[50%] md:left-[50%] lg:left-[50%] 2xl:bottom-[0px] 2xl:left-[50%] xl:left-[50%] xl:bottom-[0px] w-[735px]">
+                <img src="./images/Ellipse 2.png" alt="Ellipse 2.png">
+                
+                <div class="onwer_img absolute bottom-0 2xl:left-[50%] xl:left-[50%] z-10">
+                    <img  src="./images/Frame 57.png" alt="Frame 57.png">
+
+                </div>
+                <div class="shape_3 absolute">
+                    <img src="./images/shape-3.png" alt="shape-3.png">
+                </div>
+
+                <div class="banner_btn absolute bottom-[46px] sm:-translate-x-1/2 sm:left-1/2 lg:-translate-x-1/2 md:left-1/2 md:-translate-x-1/2 lg:left-1/2 2xl:left-1/2 2xl:-translate-x-1/2 xl:left-1/2 xl:-translate-x-1/2 z-50 w-[425px] bg-[#ffffff42] p-[10px] box-border rounded-full flex justify-between">
+                    <a class="portfolio-btn py-[14px] px-[32px] py-[14px] px-[32px] inline-block bg-[#FD853A] text-white text-[26px] capitalize rounded-full relative" href="#">
+                      portfolio
+                      <span class="transform -rotate-45 inline-block portfolio-icon"><i class="fa-regular fa-arrow-right"></i></span>
+                    </a>
+                  
+                    <a class="hire-me-btn py-[14px] ps-[32px] pe-[74px] py-[14px] ps-[32px] pe-[74px] inline-block text-white text-[26px] capitalize rounded-full font-light relative" href="#">
+                      hire me
+                      <span class="transform -rotate-45 inline-block hire-icon invisible absolute right-[33px] top-1/2 -translate-y-1/2"><i class="fa-regular fa-arrow-right"></i></span>
+                    </a>
+                  </div>
+                  
+                  
+                  
+                  
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+
+    
+
+
+
+    <script src="./js/style.js"></script>
+
+</body>
+
+</html>

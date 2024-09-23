@@ -1,0 +1,115 @@
+/* taildind config */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* taildind config end */
+/*  */
+/* header section css start */
+
+.onwer {
+    position: relative;
+    height: 46px;
+}
+
+.onwer a img {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    transition: .5s;
+}
+.onwer:hover a img{
+    left: 0px;
+    transition: .5s;
+}
+
+.onwer_title{
+    position: relative;
+}
+.onwer_title span {
+    position: absolute;
+    top: -13px;
+    left: 65px;
+    transition: .5s;
+    visibility: visible;
+    opacity: 1;
+}
+.onwer:hover .onwer_title span{
+    top: 3px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.onwer_name {
+    position: absolute;
+    top: -31px;
+    left: 56px;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.onwer:hover .onwer_name {
+    top: -20px;
+    visibility: visible;
+    opacity: 1;
+}
+/* header section css end */
+
+/* banner section css start */
+/* .banner_img{
+    transform: translateX(-50%,) !important;
+} */
+.banner_img:hover ~ .banner_text{
+    transform: translateY(-200px);
+}
+
+
+.animate-title {
+    transform: translateY(200px);
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.banner_text{
+    transition: .5s;
+    top: 0;
+}
+.animate-text {
+    transform: translateY(-200px);
+    transition: 0.5s ease-in-out;
+}
+.shape_3 {
+    transition: .5s;
+    top: -86px;
+    left: 47px;
+    width: 40rem;
+    visibility: hidden;
+    opacity: 0;
+}
+.banner_img:hover .shape_3 {
+    width: 61rem;
+    top: -304px;
+    left: -139px;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.hire-me-btn:hover {
+    background-color: #FD853A;
+    font-weight: 600; /* font-semibold */
+  }
+  
+  .hire-me-btn:hover .hire-icon {
+    visibility: visible;
+  }
+  
+  
+  
+
+
+
+
+
+
+/* banner section css end */
